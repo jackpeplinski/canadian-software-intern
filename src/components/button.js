@@ -31,6 +31,7 @@ const StyledButton = styled.div`{
     position: absolute;
     bottom: 0;
     right: 0;
+    border-radius: 500px;
     &:hover {
         transform: scale(1.04);
     }

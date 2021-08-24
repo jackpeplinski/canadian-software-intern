@@ -28,6 +28,8 @@ const StyledLabel = styled.label`{
 const StyledField = styled.input`{
     background-color: transparent;
     border-radius: 2px;
+    width: 100%;
+    padding: 5px;
     border: ${props => props.theme.border};
     color: ${props => props.theme.colors.white};
     &:focus {
