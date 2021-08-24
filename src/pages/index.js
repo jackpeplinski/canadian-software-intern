@@ -4,6 +4,8 @@ import '../index.css'
 import SignUp from '../components/signUp'
 import { ThemeProvider } from 'styled-components'
 import Button from '../components/button'
+import data from '../data'
+import Table from "../components/table"
 
 const theme = {
   colors: {
@@ -23,6 +25,7 @@ const IndexPage = () => {
     <ThemeProvider theme={theme}>
       <Title>🍁 Software Intern</Title>
       <SignUp />
+      <Table />
     </ThemeProvider>
   )
 }
