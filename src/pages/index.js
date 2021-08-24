@@ -23,7 +23,6 @@ const IndexPage = () => {
     <ThemeProvider theme={theme}>
       <Title>🍁 Software Intern</Title>
       <SignUp />
-      <Button text="Signup"/>
     </ThemeProvider>
   )
 }

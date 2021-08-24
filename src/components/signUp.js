@@ -20,4 +20,5 @@ const StyledSignUp = styled.div`{
     width: 50%;
     margin: auto;
     display: flex;
+    padding: 10px;
 }`

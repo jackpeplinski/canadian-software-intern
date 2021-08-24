@@ -4,13 +4,20 @@ import styled from 'styled-components'
 
 const Button = (props) => {
     return (
-        <StyledButton onClick={props.onClick}>
-            {props.text}
-        </StyledButton>
+        <StyledButtonContainer>
+            <StyledButton onClick={props.onClick}>
+                {props.text}
+            </StyledButton>
+        </StyledButtonContainer>
     )
 }
 
 export default Button
+
+const StyledButtonContainer = styled.div`{
+    width:20%;
+    position: relative;
+}`
 
 const StyledButton = styled.div`{
     width: fit-content;
@@ -21,7 +28,9 @@ const StyledButton = styled.div`{
     text-align: center;
     border: ${props => props.theme.border};
     font-weight: ${props => props.theme.fontWeight.bold};
-
+    position: absolute;
+    bottom: 0;
+    right: 0;
     &:hover {
         transform: scale(1.04);
     }

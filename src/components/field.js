@@ -5,7 +5,7 @@ const Field = () => {
     return (
         <StyledForm>
             <StyledLabel>Sign up for updates when new positions open.</StyledLabel>
-            <StyledField/>
+            <StyledField />
         </StyledForm>
     )
 }
@@ -13,7 +13,7 @@ const Field = () => {
 export default Field
 
 const StyledForm = styled.form`{
-    width: 50%;
+    width: 80%;
 }`
 
 const StyledLabel = styled.label`{
