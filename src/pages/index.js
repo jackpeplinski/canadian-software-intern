@@ -9,14 +9,19 @@ import Table from "../components/table"
 
 const theme = {
   colors: {
-    white: "white"
+    white: "white",
+    green: "rgba(79, 186, 96, 0.71)",
+    red: "rgba(166, 35, 35, 0.78)",
   },
   border: "2px solid white",
+  borderRadius: "5px",
   fontWeight: {
-    bold: "700"
+    bold: "1000"
   },
   fontSize: {
-    regular: "14px"
+    large: "5em",
+    medium: "1.5em",
+    regular: "1em"
   }
 }
 
@@ -33,6 +38,6 @@ const IndexPage = () => {
 export default IndexPage
 
 const Title = styled.div`{
-  font-size: 5em;
+  font-size: ${props => props.theme.fontSize.large};
   text-align: center;
 }`

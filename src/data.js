@@ -4,5 +4,41 @@ export const data = [
         "status": "Open",
         "pastOpening": "September",
         "location": "Calgary"
+    },
+    {
+        "company": "Autodesk",
+        "status": "Open",
+        "pastOpening": "September",
+        "location": "Calgary"
+    },
+    {
+        "company": "Autodesk",
+        "status": "Open",
+        "pastOpening": "September",
+        "location": "Calgary"
+    },
+    {
+        "company": "Autodesk",
+        "status": "Open",
+        "pastOpening": "September",
+        "location": "Calgary"
+    },
+    {
+        "company": "Autodesk",
+        "status": "Open",
+        "pastOpening": "September",
+        "location": "Calgary"
+    },
+    {
+        "company": "Autodesk",
+        "status": "Open",
+        "pastOpening": "September",
+        "location": "Calgary"
+    },
+    {
+        "company": "Autodesk",
+        "status": "Open",
+        "pastOpening": "September",
+        "location": "Calgary"
     }
 ]

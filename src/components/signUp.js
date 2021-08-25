@@ -16,9 +16,10 @@ export default SignUp
 
 const StyledSignUp = styled.div`{
     background: rgba(255, 255, 255, 0.22);
-    border-radius: 5px;
+    border-radius: ${props => props.theme.borderRadius};
     width: 50%;
     margin: auto;
     display: flex;
     padding: 10px;
+    max-width: 500px;
 }`

@@ -1,58 +1,66 @@
 import React, { useState } from 'react'
+import styled from 'styled-components'
 import { data } from '../data'
 
-// const GetKeys = () => {
-//     return Object.keys(data[0]); // each obj has to have same properties
-// }
-
-// const RenderJobs = () => {
-
-// }
-
 const Table = () => {
-    // const test = data;
-    // const keys = GetKeys();
-    // for (var i = 0; i < test.length; i++) {
-    //     var row = document.createElement('tr');
-    //     for (var j = 0; j < keys.length; j++) {
-    //         var cell = row.insertCell(j);
-    //         cell.innerHTML = data[i][keys[j]];
-    //     }
-    // }
     return (
-        <table id='table'>
-            <thead>
+        <StyledTable>
+            <thead style={{borderBottom: "2px solid white"}}>
                 <tr>
-                    <th>Company</th>
-                    <th>Status</th>
-                    <th>Past Opening</th>
-                    <th>Location</th>
+                    <Th>Company</Th>
+                    <Th>Status</Th>
+                    <Th>Past Opening</Th>
+                    <Th>Location</Th>
                 </tr>
             </thead>
             <tbody>
                 {
-                    data.map((data, key) => {
+                    data.map(data => {
                         return (
-                          <tr key={key}>
-                            <td>{data.company}</td>
-                          </tr>
-                        );
-                })}
-                <tr>
-                    <td>qweert</td>
-                    <td>tyui</td>
-                    <td>uipi</td>
-                    <td>asdf</td>
-                </tr>
-                <tr>
-                    <td>fghfd</td>
-                    <td>hjklhjk</td>
-                    <td>zxcv</td>
-                    <td>nbmbv</td>
-                </tr>
+                            <tr>
+                                <Td>{data.company}</Td>
+                                <Td>{data.status === "Open" ? <HighlightGreen>{data.status}</HighlightGreen> : <HighlightRed>{data.status}</HighlightRed>}</Td>
+                                <Td>{data.pastOpening}</Td>
+                                <Td>{data.location}</Td>
+                            </tr>
+                        )
+                    })
+                }
             </tbody>
-        </table>
+        </StyledTable >
     )
 }
 
 export default Table
+
+const StyledTable = styled.table`{
+    margin: auto;
+    font-size: ${props => props.theme.fontSize.medium};
+    border-collapse: collapse;
+}`
+
+const HighlightGreen = styled.div`{
+    background: ${props => props.theme.colors.green};
+    border-radius: ${props => props.theme.borderRadius};
+    padding: 5px;
+}`
+
+const HighlightRed = styled.div`{
+    background: ${props => props.theme.colors.red};
+    border-radius: ${props => props.theme.borderRadius};
+    padding: 5px;
+}`
+
+const Td = styled.td`{
+    padding: 2vh 5vw 0 0;
+    &:last-child {
+        padding: 2vh 0 0 0;
+    }
+}`
+
+const Th = styled.th`{
+    padding: 2vh 5vw 0 0;
+    &:last-child {
+        padding: 2vh 0 1vh 0;
+    }
+}`
