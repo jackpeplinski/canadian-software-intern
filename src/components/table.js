@@ -5,14 +5,14 @@ import { data } from '../data'
 const Table = () => {
     return (
         <StyledTable>
-            <thead style={{borderBottom: "2px solid white"}}>
+            <Thead>
                 <tr>
                     <Th>Company</Th>
                     <Th>Status</Th>
                     <Th>Past Opening</Th>
                     <Th>Location</Th>
                 </tr>
-            </thead>
+            </Thead>
             <tbody>
                 {
                     data.map(data => {
@@ -59,8 +59,12 @@ const Td = styled.td`{
 }`
 
 const Th = styled.th`{
-    padding: 2vh 5vw 0 0;
+    padding: 2vh 5vw 2vh 0;
     &:last-child {
-        padding: 2vh 0 1vh 0;
+        padding: 2vh 0 2vh 0;
     }
+}`
+
+const Thead = styled.thead`{
+    border-bottom: 1px solid ${props => props.theme.colors.whiteFaded};
 }`

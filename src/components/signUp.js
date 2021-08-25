@@ -15,7 +15,7 @@ const SignUp = () => {
 export default SignUp
 
 const StyledSignUp = styled.div`{
-    background: rgba(255, 255, 255, 0.22);
+    background: ${props => props.theme.colors.whiteFaded};
     border-radius: ${props => props.theme.borderRadius};
     width: 50%;
     margin: auto;
