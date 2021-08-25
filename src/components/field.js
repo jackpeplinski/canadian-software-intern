@@ -1,39 +1,45 @@
-import React from 'react'
-import styled from 'styled-components'
+import React from "react";
+import styled from "styled-components";
 
 const Field = () => {
-    return (
-        <StyledForm>
-            <StyledLabel>Sign up for updates when new positions open.</StyledLabel>
-            <StyledField />
-        </StyledForm>
-    )
-}
+  return (
+    <StyledForm>
+      <StyledLabel>Sign up for updates when new positions open.</StyledLabel>
+      <StyledField />
+    </StyledForm>
+  );
+};
 
-export default Field
+export default Field;
 
-const StyledForm = styled.form`{
+const StyledForm = styled.form`
+   {
     width: 80%;
-}`
+  }
+`;
 
-const StyledLabel = styled.label`{
+const StyledLabel = styled.label`
+   {
     display: block;
-    font-weight: ${props => props.theme.fontWeight.bold};
+    font-weight: ${(props) => props.theme.fontWeight.bold};
     margin-bottom: 0.5vh;
     &:focus {
-        outline: none;
+      outline: none;
     }
-}`
+  }
+`;
 
-const StyledField = styled.input`{
+const StyledField = styled.input`
+   {
     background-color: transparent;
     border-radius: 2px;
     width: 100%;
     padding: 5px;
-    border: ${props => props.theme.border};
-    color: ${props => props.theme.colors.white};
+    border: ${(props) => props.theme.border};
+    color: ${(props) => props.theme.colors.white};
     &:focus {
-        outline: none;
-        border: 3px solid rgb(255, 255, 255);
+      outline: none;
+      border: 3px solid rgb(255, 255, 255);
     }
-}`
+  }
+`;
