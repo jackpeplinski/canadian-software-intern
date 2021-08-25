@@ -5,6 +5,7 @@ import SignUp from "../components/signUp";
 import { ThemeProvider } from "styled-components";
 import Table from "../components/table";
 import PopOver from "../components/popOver";
+import Title from '../components/title'
 
 const theme = {
   colors: {
@@ -19,7 +20,7 @@ const theme = {
     bold: "1000",
   },
   fontSize: {
-    large: "5em",
+    large: "3em",
     medium: "1.5em",
     regular: "1em",
   },
@@ -33,7 +34,7 @@ const IndexPage = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      <Title>🇨🇦 Canadian Software Internships 🍁</Title>
+      <Title/>
       <SignUp onClick={onSignUpClick} />
       <PopOver showPopOver={showPopOver} setShowPopOver={setShowPopOver} />
       <Table />
@@ -42,10 +43,3 @@ const IndexPage = () => {
 };
 
 export default IndexPage;
-
-const Title = styled.div`
-   {
-    font-size: ${(props) => props.theme.fontSize.large};
-    text-align: center;
-  }
-`;

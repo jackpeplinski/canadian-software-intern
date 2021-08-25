@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import { MdClose } from "react-icons/md";
+import { VscChromeClose } from "react-icons/vsc";
 
 const PopOver = ({ showPopOver, setShowPopOver }) => {
   return (
@@ -12,7 +12,7 @@ const PopOver = ({ showPopOver, setShowPopOver }) => {
             You’ll get a confirmation email you’ve signed up. Have a great day
             🤗 !
           </StyledMessage>
-          <MdClose
+          <VscChromeClose
             style={{ position: "absolute", right: "2%", top: "5%" }}
             onClick={() => setShowPopOver(false)}
           />
@@ -32,6 +32,7 @@ const StyledBody = styled.div`
     display: flex;
     width: 30vw;
     height: 10vh;
+    margin: 1vh auto;
   }
 `;
 
@@ -40,7 +41,7 @@ const BarHighlight = styled.div`
     background: rgba(255, 255, 255, 0.58);
     border-radius: ${(props) => props.theme.borderRadius};
     position: absolute;
-    width: 1vw;
+    width: 0.5vw;
     height: 10vh;
   }
 `;
