@@ -2,16 +2,18 @@ import React from 'react'
 import styled from 'styled-components'
 import { MdClose } from 'react-icons/md'
 
-const PopOver = () => {
+const PopOver = ({showPopOver, setShowPopOver}) => {
     return (
-        <StyledBody>
-            <BarHighlight />
-            <StyledMessage>
-                You’ll get a confirmation email you’ve signed up.
-                Have a great day 🤗 !
-            </StyledMessage>
-            <MdClose style={{ position: "absolute", right: "2%", top: "5%" }} />
-        </StyledBody>
+        <>
+            {showPopOver ? <StyledBody>
+                <BarHighlight />
+                <StyledMessage>
+                    You’ll get a confirmation email you’ve signed up.
+                    Have a great day 🤗 !
+                </StyledMessage>
+                <MdClose style={{ position: "absolute", right: "2%", top: "5%" }} onClick={() => setShowPopOver(false)}/>
+            </StyledBody> : null}
+        </>
     )
 }
 

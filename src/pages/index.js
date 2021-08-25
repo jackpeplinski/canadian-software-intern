@@ -1,14 +1,10 @@
-import * as React from "react"
+import React, { useState } from "react"
 import styled from 'styled-components'
 import '../index.css'
 import SignUp from '../components/signUp'
 import { ThemeProvider } from 'styled-components'
-import Button from '../components/button'
-import data from '../data'
 import Table from '../components/table'
 import PopOver from '../components/popOver'
-import { MdClose } from 'react-icons/md'
-
 
 const theme = {
   colors: {
@@ -30,12 +26,17 @@ const theme = {
 }
 
 const IndexPage = () => {
+  const [showPopOver, setShowPopOver] = useState(false);
+  const onSignUpClick = () => {
+    setShowPopOver(true);
+  }
+
   return (
     <ThemeProvider theme={theme}>
       <Title>🇨🇦 Canadian Software Internships 🍁</Title>
-      <SignUp />
+      <SignUp onClick={onSignUpClick}/>
+      <PopOver showPopOver={showPopOver} setShowPopOver={setShowPopOver}/>
       <Table />
-      <PopOver />
     </ThemeProvider>
   )
 }

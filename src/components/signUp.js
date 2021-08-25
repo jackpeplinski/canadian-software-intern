@@ -3,11 +3,11 @@ import styled from 'styled-components'
 import Field from './field'
 import Button from './button'
 
-const SignUp = () => {
+const SignUp = (props) => {
     return (
         <StyledSignUp>
             <Field />
-            <Button text="Sign up!" />
+            <Button text="Sign up!" onClick={props.onClick}/>
         </StyledSignUp>
     )
 }
