@@ -13,8 +13,8 @@ const Field = () => {
 export default Field;
 
 const StyledForm = styled.form`
-   {
-    width: 80%;
+  {
+    
   }
 `;
 
@@ -23,6 +23,7 @@ const StyledLabel = styled.label`
     display: block;
     font-weight: ${(props) => props.theme.fontWeight.bold};
     margin-bottom: 0.5vh;
+
     &:focus {
       outline: none;
     }
@@ -32,11 +33,12 @@ const StyledLabel = styled.label`
 const StyledField = styled.input`
    {
     background-color: transparent;
-    border-radius: 2px;
-    width: 100%;
-    padding: 5px;
+    border-radius: ${(props) => props.theme.borderRadius};
     border: ${(props) => props.theme.border};
     color: ${(props) => props.theme.colors.white};
+    width: 100%;
+    padding: 5px;
+
     &:focus {
       outline: none;
       border: 3px solid rgb(255, 255, 255);

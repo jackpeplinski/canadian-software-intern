@@ -2,36 +2,31 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = (props) => {
-  return (
-    <StyledButtonContainer>
-      <StyledButton onClick={props.onClick}>{props.text}</StyledButton>
-    </StyledButtonContainer>
-  );
+  return <StyledButton onClick={props.onClick}>{props.text}</StyledButton>;
 };
 
 export default Button;
 
 const StyledButtonContainer = styled.div`
    {
-    width: 20%;
-    position: relative;
   }
 `;
 
 const StyledButton = styled.div`
    {
-    width: fit-content;
-    height: fit-content;
     color: ${(props) => props.theme.colors.white};
-    padding: 5px;
     font-size: ${(props) => props.theme.fontSize.regular};
     text-align: center;
     border: ${(props) => props.theme.border};
     font-weight: ${(props) => props.theme.fontWeight.bold};
-    position: absolute;
-    bottom: 0;
-    right: 0;
     border-radius: 500px;
+    padding: 5px;
+    align-self: flex-end;
+
+    @media (max-width: 425px) {
+      margin-top: 1vh;
+    }
+
     &:hover {
       transform: scale(1.04);
     }
