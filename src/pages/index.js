@@ -6,7 +6,6 @@ import { ThemeProvider } from "styled-components";
 import Table from "../components/table";
 import PopOver from "../components/popOver";
 import Title from "../components/title";
-import MobileAlert from "../components/mobileAlert";
 import { useMediaQuery } from "react-responsive";
 
 const theme = {
@@ -34,21 +33,22 @@ const IndexPage = () => {
     setShowPopOver(true);
   };
 
-  const isMobile = useMediaQuery({ query: "(max-width: 768px)" });
-
   return (
     <ThemeProvider theme={theme}>
-      
-        
-        <div>
-          <Title />
-          <SignUp onClick={onSignUpClick} />
-          <PopOver showPopOver={showPopOver} setShowPopOver={setShowPopOver} />
-          <Table />
-        </div>
-     
+      <Wrapper>
+        <Title />
+        <SignUp onClick={onSignUpClick} />
+        <PopOver showPopOver={showPopOver} setShowPopOver={setShowPopOver} />
+        <Table />
+      </Wrapper>
     </ThemeProvider>
   );
 };
 
 export default IndexPage;
+
+const Wrapper = styled.div`
+   {
+    overflow: scroll;
+  }
+`;

@@ -11,10 +11,12 @@ const Title = () => {
 
 export default Title;
 
-const TitleWrapper = styled.div`{
-    margin: 1vh auto;
+const TitleWrapper = styled.div`
+   {
+     margin: auto;
     width: fit-content;
-}`
+  }
+`;
 
 const TitleText = styled.div`
    {
