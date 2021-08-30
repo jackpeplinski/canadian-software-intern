@@ -23,7 +23,8 @@ const StyledSignUp = styled.div`
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
-    margin: auto;
+    margin: 1vh auto;
     padding: 2vh;
+    max-width: 530px;
   }
 `;

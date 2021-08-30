@@ -13,7 +13,7 @@ export default Title;
 
 const TitleWrapper = styled.div`
    {
-     margin: auto;
+     margin: 1vh auto;
     width: fit-content;
   }
 `;

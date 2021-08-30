@@ -30,9 +30,9 @@ const StyledBody = styled.div`
     border-radius: ${(props) => props.theme.borderRadius};
     position: relative;
     display: flex;
-    width: 30vw;
     height: 10vh;
     margin: 1vh auto;
+    max-width: 300px;
   }
 `;
 
@@ -41,13 +41,17 @@ const BarHighlight = styled.div`
     background: rgba(255, 255, 255, 0.58);
     border-radius: ${(props) => props.theme.borderRadius};
     position: absolute;
-    width: 0.5vw;
+    width: 4px;
     height: 10vh;
   }
 `;
 
 const StyledMessage = styled.div`
    {
-    margin: auto 5vw auto 5vw;
+    margin: auto 1vw;
+    text-align: justify;
+    width: fit-content;
+    height: fit-content;
+}
   }
 `;
