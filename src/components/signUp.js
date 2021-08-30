@@ -25,27 +25,5 @@ const StyledSignUp = styled.div`
     flex-wrap: wrap;
     margin: auto;
     padding: 2vh;
-
-    @media (max-width: 2560px) {
-      width: 30%;
-    }
-
-    @media (max-width: 1440px) {
-      width: 40%;
-    }
-
-    @media (max-width: 1024px) {
-      width: 50%;
-    }
-
-    @media (max-width: 768px) {
-      width: 60%;
-    }
-
-    @media (max-width: 425px) {
-      &:last-child {
-        margin-top: 1vh;
-      }
-    }
   }
 `;
