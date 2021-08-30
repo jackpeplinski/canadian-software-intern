@@ -1,12 +1,19 @@
-@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url("https://fonts.googleapis.com/css?family=Roboto");
 
 html {
-    height: 100%;
-    background: linear-gradient(180deg, #C96161 89.22%, rgba(213, 135, 64, 0.95) 100%);;
+  height: 100%;
+  background: #466368;
+  background: -webkit-linear-gradient(180deg, #C96161 89.22%, rgba(213, 135, 64, 0.95) 100%) no-repeat center center fixed;
+  background: -moz-linear-gradient(180deg, #C96161 89.22%, rgba(213, 135, 64, 0.95) 100%) no-repeat center center fixed;
+  background: linear-gradient(180deg, #C96161 89.22%, rgba(213, 135, 64, 0.95) 100%) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 * {
-    color: white;
-    margin: 0;
-    font-family: roboto, sans-serif;
+  color: white;
+  margin: 0;
+  font-family: roboto, sans-serif;
 }

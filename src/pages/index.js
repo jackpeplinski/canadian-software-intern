@@ -38,16 +38,15 @@ const IndexPage = () => {
 
   return (
     <ThemeProvider theme={theme}>
-      {isMobile ? (
-        <MobileAlert />
-      ) : (
+      
+        
         <div>
           <Title />
           <SignUp onClick={onSignUpClick} />
           <PopOver showPopOver={showPopOver} setShowPopOver={setShowPopOver} />
           <Table />
         </div>
-      )}
+     
     </ThemeProvider>
   );
 };
