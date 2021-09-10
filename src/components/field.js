@@ -1,22 +1,16 @@
 import React from "react";
 import styled from "styled-components";
 
-const Field = () => {
+const Field = (props) => {
   return (
-    <StyledForm>
+    <div>
       <StyledLabel>Sign up for updates when new positions open.</StyledLabel>
       <StyledField />
-    </StyledForm>
+    </div>
   );
 };
 
 export default Field;
-
-const StyledForm = styled.form`
-  {
-    
-  }
-`;
 
 const StyledLabel = styled.label`
    {
