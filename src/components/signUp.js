@@ -45,7 +45,7 @@ const SignUp = (props) => {
       onSubmit={handleSubmit}
     >
       <Field onChange={handleChange} />
-      <Button text="Sign up!" onClick={props.onClick} />
+      <Button type="submit" text="Sign up!" onClick={props.onClick} />
     </StyledSignUp>
   );
 };

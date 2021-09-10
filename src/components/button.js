@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = (props) => {
-  return <StyledButton onClick={props.onClick}>{props.text}</StyledButton>;
+  return <StyledButton type={props.type} onClick={props.onClick}>{props.text}</StyledButton>;
 };
 
 export default Button;
