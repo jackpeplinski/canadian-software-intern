@@ -5,7 +5,7 @@ const Field = (props) => {
   return (
     <div>
       <StyledLabel>Sign up for updates when new positions open.</StyledLabel>
-      <StyledField />
+      <StyledField onChange={props.onChange}/>
     </div>
   );
 };
