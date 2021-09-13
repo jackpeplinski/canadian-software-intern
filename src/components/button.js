@@ -12,7 +12,7 @@ const StyledButtonContainer = styled.div`
   }
 `;
 
-const StyledButton = styled.div`
+const StyledButton = styled.button` 
    {
     color: ${(props) => props.theme.colors.white};
     font-size: ${(props) => props.theme.fontSize.regular};
