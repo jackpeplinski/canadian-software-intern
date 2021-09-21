@@ -37,13 +37,13 @@ const SignUp = (props) => {
 
   return (
     <StyledSignUp
-      name="sign-up"
+      name="signup"
       method="post"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
     >
-      <Field value="email" name="email" onChange={handleChange} />
+      <Field type="email" name="email" onChange={handleChange} />
       <Button type="submit" text="Sign up!" onClick={props.onClick} />
     </StyledSignUp>
   );
