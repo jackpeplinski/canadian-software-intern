@@ -43,7 +43,7 @@ const SignUp = (props) => {
       data-netlify-honeypot="bot-field"
       onSubmit={handleSubmit}
     >
-      <Field onChange={handleChange} />
+      <Field value="email" name="email" onChange={handleChange} />
       <Button type="submit" text="Sign up!" onClick={props.onClick} />
     </StyledSignUp>
   );
