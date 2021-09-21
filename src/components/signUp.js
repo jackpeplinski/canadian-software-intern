@@ -39,7 +39,6 @@ const SignUp = (props) => {
     <StyledSignUp
       name="sign-up"
       method="post"
-      action="/thanks/"
       data-netlify="true"
       data-netlify-honeypot="bot-field"
       onSubmit={handleSubmit}

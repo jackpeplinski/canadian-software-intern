@@ -2,7 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const Button = (props) => {
-  return <StyledButton type={props.type} onClick={props.onClick}>{props.text}</StyledButton>;
+  return (
+    <StyledButton type={props.type} onClick={props.onClick}>
+      {props.text}
+    </StyledButton>
+  );
 };
 
 export default Button;
@@ -12,9 +16,9 @@ const StyledButtonContainer = styled.div`
   }
 `;
 
-const StyledButton = styled.button` 
+const StyledButton = styled.button`
    {
-    color: ${(props) => props.theme.colors.white};
+    background: none;
     font-size: ${(props) => props.theme.fontSize.regular};
     text-align: center;
     border: ${(props) => props.theme.border};
