@@ -1,13 +1,12 @@
-import React, { useState } from "react";
+import React from "react";
 import styled from "styled-components";
 import "../index.css";
 import SignUp from "../components/signUp";
 import { ThemeProvider } from "styled-components";
 import Table from "../components/table";
-import PopOver from "../components/popOver";
 import Title from "../components/title";
 
-const theme = {
+export const theme = {
   colors: {
     white: "white",
     whiteFaded: "rgba(255, 255, 255, 0.22)",
