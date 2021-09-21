@@ -2,18 +2,30 @@ export const data = [
     {
         "company": "Amazon",
         "status": "Open",
-        "pastOpening": "September",
+        "pastOpening": "August",
         "location": "Calgary, Toronto, Vancouver"
     },
     {
         "company": "Google",
-        "status": "Not Open",
+        "status": "Open",
         "pastOpening": "September",
         "location": "Calgary"
     },
     {
+        "company": "Pinterest",
+        "status": "Open",
+        "pastOpening": "September",
+        "location": "Toronto"
+    },
+    {
         "company": "RBC",
-        "status": "Not Open",
+        "status": "Open",
+        "pastOpening": "September",
+        "location": "Toronto"
+    },
+    {
+        "company": "Microsoft",
+        "status": "Open",
         "pastOpening": "September",
         "location": "Toronto"
     },
@@ -60,12 +72,6 @@ export const data = [
         "location": "Toronto"
     },
     {
-        "company": "Microsoft",
-        "status": "Not Open",
-        "pastOpening": "September",
-        "location": "Toronto"
-    },
-    {
         "company": "Nvidia",
         "status": "Not Open",
         "pastOpening": "September",
@@ -80,12 +86,6 @@ export const data = [
     {
         "company": "CSE",
         "status": "Not Open",
-        "pastOpening": "September",
-        "location": "Toronto"
-    },
-    {
-        "company": "Pinterest",
-        "status": "Open",
         "pastOpening": "September",
         "location": "Toronto"
     },
