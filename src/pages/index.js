@@ -6,7 +6,6 @@ import { ThemeProvider } from "styled-components";
 import Table from "../components/table";
 import PopOver from "../components/popOver";
 import Title from "../components/title";
-import { useMediaQuery } from "react-responsive";
 
 const theme = {
   colors: {
@@ -28,17 +27,11 @@ const theme = {
 };
 
 const IndexPage = () => {
-  const [showPopOver, setShowPopOver] = useState(false);
-  const onSignUpClick = () => {
-    setShowPopOver(true);
-  };
-
   return (
     <ThemeProvider theme={theme}>
       <Wrapper>
         <Title />
-        <SignUp onClick={onSignUpClick} />
-        <PopOver showPopOver={showPopOver} setShowPopOver={setShowPopOver} />
+        <SignUp />
         <Table />
       </Wrapper>
     </ThemeProvider>

@@ -5,7 +5,11 @@ const Field = (props) => {
   return (
     <div>
       <StyledLabel>Sign up for updates when new positions open.</StyledLabel>
-      <StyledField value={props.value} name={props.name} onChange={props.onChange}/>
+      <StyledField
+        value={props.value}
+        name={props.name}
+        onChange={props.onChange}
+      />
     </div>
   );
 };
