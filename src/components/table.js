@@ -39,7 +39,7 @@ export default Table;
 
 const StyledTable = styled.table`
    {
-    margin: auto;
+    margin: 0 auto 2vh auto;
     font-size: ${(props) => props.theme.fontSize.medium};
     border-collapse: collapse;
   }
