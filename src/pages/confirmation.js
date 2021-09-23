@@ -3,15 +3,9 @@ import { ThemeProvider } from "styled-components";
 import { theme } from "../pages/index";
 import styled from "styled-components";
 import Button from "../components/button";
-import { useHistory } from "react-router-dom";
+import { Link } from "gatsby";
 
 const Confirmation = () => {
-  const history = useHistory();
-
-  const goBack = () => {
-    history.goBack();
-  };
-
   return (
     <ThemeProvider theme={theme}>
       <ConfirmationWrapper>
@@ -22,7 +16,9 @@ const Confirmation = () => {
           </StyledConfirm>
         </MessageWrapper>
         <ButtonWrapper>
-          <Button onClick={goBack} text="← go back" />
+          <Link to="/">
+            <Button text="← go back" />
+          </Link>
         </ButtonWrapper>
       </ConfirmationWrapper>
     </ThemeProvider>
