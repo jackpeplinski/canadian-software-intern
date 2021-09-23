@@ -4,7 +4,7 @@ import styled from "styled-components";
 const Title = () => {
   return (
     <TitleWrapper>
-      <TitleText>CANADIAN SOFTWARE INTERNSHIPS</TitleText>
+      <TitleText>CANADIAN SOFTWARE INTERN</TitleText>
     </TitleWrapper>
   );
 };

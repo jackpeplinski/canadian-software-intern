@@ -21,7 +21,7 @@ export const data = [
     url: "https://www.pinterestcareers.com/job-search-results/?job_type=Intern"
   },
   {
-    company: "RBC",
+    company: "RBC (Amplify)",
     status: "Open",
     pastOpening: "September",
     location: "Toronto",

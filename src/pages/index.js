@@ -5,6 +5,7 @@ import SignUp from "../components/signUp";
 import { ThemeProvider } from "styled-components";
 import Table from "../components/table";
 import Title from "../components/title";
+import Quote from "../components/quote";
 
 export const theme = {
   colors: {
@@ -32,6 +33,7 @@ const IndexPage = () => {
         <Title />
         <SignUp />
         <Table />
+        <Quote />
       </Wrapper>
     </ThemeProvider>
   );
