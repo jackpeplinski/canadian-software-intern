@@ -17,7 +17,7 @@ const Table = () => {
         {data.map((data) => {
           return (
             <tr>
-              <Td>{data.company}</Td>
+              <Td><a href={data.url ? data.url : null} target="_blank">{data.company}</a></Td>
               <Td>
                 {data.status === "Open" ? (
                   <HighlightGreen>{data.status}</HighlightGreen>
