@@ -1,54 +1,21 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+# 💼 What this is?
+Applying to tech internships early is often important to actually be considered for roles—that's why I made this site; hopefully it helps people know when to look for internships postings!
 
-## 🚀 Quick start
+I'll do my best to keep it updated, and also to send out emails when new roles open. I will never sell or distribute your email address and you can unsubscribe anytime.
 
-1.  **Create a Gatsby site.**
+# 💽 Where did I get the info from?
+I sourced most of the info from [this GitHub list](https://github.com/ChrisDryden/Canadian-Tech-Internships-Summer-2022) (with some modifications).
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+# 👨🏽‍💻 What tech did I use and why?
+### React
+Using React was probably a bit overkill for this site considering there aren't many components to reuse. That being said, React does have lots of other useful features like state management that I used a bit. Of course, I also just like working in React since I've used it in lots of other projects since it's _so_ popular now a days. Also, if I do decide to expand the project, I'll have a start on some of the components.
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+### `styled-components`
+I mainly just wanted to continue trying out some JS-in-CSS! My thoughts are:
+- Having the 'CSS' in the same JS file is nice but I find there's a lot more syntax involved that be confusing at first as-opposed to more CSS based options. For example having to write `${(props) => props.theme.borderRadius};` seems like a lot just to have a passed in variable.
+- Maybe this is just a me issue, but the [formatter for VSCode](https://github.com/microsoft/typescript-styled-plugin/issues/146) I tried wasn't working for me and this meant there was no autocomplete. This meant I had to be really careful when typing in names.
+- From another project I used `styled-components` on with Gatsby, there can be some confusing syntax when using Gatsby's built in `Img` component.
+- Having a different name for each styled component can make your HTML tree a bit confusing since there's no common tag structure.
 
-2.  **Start developing.**
-
-    Navigate into your new site’s directory and start it up.
-
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
-
-3.  **Open the code and start customizing!**
-
-    Your site is now running at http://localhost:8000!
-
-    Edit `src/pages/index.js` to see your site update in real-time!
-
-4.  **Learn more**
-
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+### Gatsby
+Similar to React, I didn't use all the features Gatsby (e.g., responsive images) offers due to the small size (at the momement) of the project. I still like the file structure Gatsby generates and also the opportunties it provides if I do expand the project in the future.
