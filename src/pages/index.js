@@ -6,6 +6,7 @@ import { ThemeProvider } from "styled-components";
 import Table from "../components/table";
 import Title from "../components/title";
 import Quote from "../components/quote";
+import { Helmet } from "react-helmet";
 
 export const theme = {
   colors: {
@@ -29,6 +30,11 @@ export const theme = {
 const IndexPage = () => {
   return (
     <ThemeProvider theme={theme}>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Canadian Software Internships</title>
+        <meta name="Find and be alerted when top-tech internships open." />
+      </Helmet>
       <Wrapper>
         <Title />
         <SignUp />
