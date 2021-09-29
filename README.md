@@ -1,3 +1,8 @@
+
+<p align="center">
+  <b>Checkout the deployed version <a href="https://canadian-software-intern.netlify.app/" target="_blank">here</a>!</b>
+</p>
+
 # 💼 What this is?
 Applying to tech internships early is often important to actually be considered for roles—that's why I made this site; hopefully it helps people know when to look for internships postings!
 
