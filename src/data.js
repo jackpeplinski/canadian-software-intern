@@ -10,7 +10,7 @@ export const data = [
     company: "Google",
     status: "Open",
     pastOpening: "September",
-    location: "Calgary",
+    location: "Waterloo",
     url: "https://careers.google.com/jobs/results/115367821606560454-software-developer-intern-bachelors-summer-2022/?distance=50&employment_type=INTERN&location=Canada"
   },
   {
@@ -122,7 +122,7 @@ export const data = [
     company: "Unity",
     status: "Not Open",
     pastOpening: "December",
-    location: "Montreal",
+    location: "Montreal, Calgary",
     url: "https://careers.unity.com/university"
   },
   {
