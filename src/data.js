@@ -14,6 +14,13 @@ export const data = [
     url: "https://careers.google.com/jobs/results/115367821606560454-software-developer-intern-bachelors-summer-2022/?distance=50&employment_type=INTERN&location=Canada"
   },
   {
+    company: "Mark43",
+    status: "Open",
+    pastOpening: "September",
+    location: "Toronto",
+    url: "https://mark43.com/careers/"
+  },
+  {
     company: "Pinterest",
     status: "Open",
     pastOpening: "September",
@@ -49,6 +56,13 @@ export const data = [
     url: "https://careers.publicissapient.com/job-search?country=Canada&city=ca-Remote%2Cca-Calgary%2Cca-Toronto&employmentType=Intern"
   },
   {
+    company: "Splunk",
+    status: "Open",
+    pastOpening: "September",
+    location: "Toronto",
+    url: "https://jobs.jobvite.com/careers/splunk/jobs?error=404"
+  },
+  {
     company: "TopHat",
     status: "Not Open",
     pastOpening: "September",
@@ -77,13 +91,6 @@ export const data = [
     url: "https://www.capitalonecareers.ca/search-jobs"
   },
   {
-    company: "Splunk",
-    status: "Not Open",
-    pastOpening: "September",
-    location: "Toronto",
-    url: "https://jobs.jobvite.com/careers/splunk/jobs?error=404"
-  },
-  {
     company: "Mastercard",
     status: "Not Open",
     pastOpening: "September",
@@ -110,20 +117,6 @@ export const data = [
     pastOpening: "September",
     location: "Toronto",
     url: "https://sunlife.wd3.myworkdayjobs.com/Campus/3/refreshFacet/318c8bb6f553100021d223d9780d30be"
-  },
-  {
-    company: "Mark43",
-    status: "Not Open",
-    pastOpening: "September",
-    location: "Toronto",
-    url: "https://mark43.com/careers/"
-  },
-  {
-    company: "Unity",
-    status: "Not Open",
-    pastOpening: "December",
-    location: "Montreal, Calgary",
-    url: "https://careers.unity.com/university"
   },
   {
     company: "IBM",
@@ -257,5 +250,12 @@ export const data = [
     pastOpening: "February",
     location: "Toronto",
     url: ""
+  },
+  {
+    company: "Coursera",
+    status: "Not Open",
+    pastOpening: "",
+    location: "Toronto",
+    url: "https://jobs.lever.co/coursera?commitment=Intern"
   },
 ];
