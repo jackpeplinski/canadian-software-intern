@@ -63,6 +63,13 @@ export const data = [
     url: "https://jobs.jobvite.com/careers/splunk/jobs?error=404"
   },
   {
+    company: "Unity",
+    status: "Not Open",
+    pastOpening: "December",
+    location: "Montreal, Calgary",
+    url: "https://careers.unity.com/university"
+  },
+  {
     company: "TopHat",
     status: "Not Open",
     pastOpening: "September",
