@@ -64,7 +64,7 @@ export const data = [
   },
   {
     company: "Unity",
-    status: "Not Open",
+    status: "Open",
     pastOpening: "December",
     location: "Montreal, Calgary",
     url: "https://careers.unity.com/university"
