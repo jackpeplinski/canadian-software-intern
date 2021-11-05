@@ -3,7 +3,7 @@ export const data = [
     company: "Amazon",
     status: "Open",
     pastOpening: "August",
-    location: "Calgary, Toronto, Vancouver",
+    location: "Almost everywhere",
     url: "https://www.amazon.jobs/en/jobs/1559866/software-development-engineer-intern-summer-2022-canada"
   },
   {
@@ -65,9 +65,30 @@ export const data = [
   {
     company: "Unity",
     status: "Open",
-    pastOpening: "December",
-    location: "Montreal, Calgary",
+    pastOpening: "October",
+    location: "Montreal, Vancouver, Calgary",
     url: "https://careers.unity.com/university"
+  },
+  {
+    company: "Slack",
+    status: "Open",
+    pastOpening: "October",
+    location: "Toronto",
+    url: ""
+  },
+  {
+    company: "Adobe",
+    status: "Open",
+    pastOpening: "October",
+    location: "Remote",
+    url: ""
+  },
+  {
+    company: "Nvidia",
+    status: "Open",
+    pastOpening: "November",
+    location: "Toronto",
+    url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/3/refreshFacet/318c8bb6f553100021d223d9780d30be"
   },
   {
     company: "TopHat",
@@ -103,13 +124,6 @@ export const data = [
     pastOpening: "September",
     location: "Toronto",
     url: "https://mastercard.wd1.myworkdayjobs.com/Campus/0/refreshFacet/318c8bb6f553100021d223d9780d30be"
-  },
-  {
-    company: "Nvidia",
-    status: "Not Open",
-    pastOpening: "September",
-    location: "Toronto",
-    url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/3/refreshFacet/318c8bb6f553100021d223d9780d30be"
   },
   {
     company: "The Score",
