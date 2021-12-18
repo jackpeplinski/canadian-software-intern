@@ -11,11 +11,6 @@ const Button = (props) => {
 
 export default Button;
 
-const StyledButtonContainer = styled.div`
-   {
-  }
-`;
-
 const StyledButton = styled.button`
    {
     background: none;

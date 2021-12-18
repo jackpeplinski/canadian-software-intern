@@ -91,6 +91,13 @@ export const data = [
     url: "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/3/refreshFacet/318c8bb6f553100021d223d9780d30be"
   },
   {
+    company: "RBC",
+    status: "Open",
+    pastOpening: "December",
+    location: "Toronto",
+    url: "https://jobs.rbc.com/ca/en/c/internship-coop-jobs"
+  },
+  {
     company: "TopHat",
     status: "Not Open",
     pastOpening: "September",
