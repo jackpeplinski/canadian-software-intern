@@ -98,6 +98,13 @@ export const data = [
     url: "https://jobs.rbc.com/ca/en/c/internship-coop-jobs"
   },
   {
+    company: "WealthSimple",
+    status: "Open",
+    pastOpening: "January",
+    location: "Toronto",
+    url: "https://jobs.lever.co/wealthsimple?commitment=Intern"
+  },
+  {
     company: "TopHat",
     status: "Not Open",
     pastOpening: "September",
@@ -250,13 +257,6 @@ export const data = [
     pastOpening: "February",
     location: "Toronto",
     url: ""
-  },
-  {
-    company: "WealthSimple",
-    status: "Not Open",
-    pastOpening: "February",
-    location: "Toronto",
-    url: "https://jobs.lever.co/wealthsimple?commitment=Intern"
   },
   {
     company: "Telus Digital",
