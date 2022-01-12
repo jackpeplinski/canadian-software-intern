@@ -112,6 +112,27 @@ export const data = [
     url: "https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?PageType=JobDetails&partnerid=25404&siteid=5814&jobid=2886615&Codes=TD010#jobDetails=2886615_5813"
   },
   {
+    company: "Loblaw Digital",
+    status: "Open",
+    pastOpening: "January",
+    location: "Toronto",
+    url: "https://jobs.lever.co/loblawdigital"
+  },
+  {
+    company: "Shopify",
+    status: "Open",
+    pastOpening: "January",
+    location: "Remote",
+    url: "https://www.shopify.ca/careers/search?teams%5B%5D=interns&keywords=&sort=title_asc"
+  },
+  {
+    company: "Autodesk",
+    status: "Open",
+    pastOpening: "January",
+    location: "Toronto, Montreal",
+    url: ""
+  },
+  {
     company: "TopHat",
     status: "Not Open",
     pastOpening: "September",
@@ -189,13 +210,6 @@ export const data = [
     url: "https://www.zynga.com/job-listing-category/internships-new-grads/"
   },
   {
-    company: "Shopify",
-    status: "Not Open",
-    pastOpening: "January",
-    location: "Remote",
-    url: "https://www.shopify.ca/careers/search?teams%5B%5D=interns&keywords=&sort=title_asc"
-  },
-  {
     company: "Pagerduty",
     status: "Not Open",
     pastOpening: "January",
@@ -224,13 +238,6 @@ export const data = [
     url: ""
   },
   {
-    company: "Autodesk",
-    status: "Not Open",
-    pastOpening: "January",
-    location: "Toronto, Montreal",
-    url: ""
-  },
-  {
     company: "Nanoleaf",
     status: "Not Open",
     pastOpening: "February",
@@ -250,13 +257,6 @@ export const data = [
     pastOpening: "February",
     location: "Toronto",
     url: ""
-  },
-  {
-    company: "Loblaw Digital",
-    status: "Not Open",
-    pastOpening: "February",
-    location: "Toronto",
-    url: "https://jobs.lever.co/loblawdigital"
   },
   {
     company: "Wish",
